@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to KR portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a7104411ca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/komallogo.jpg" class="logo" alt="Komal's Logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#artwork">Art-Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Java Developer </p>
+                <h1> Hi I'm <span>Komal Rani</span></h1>
+                <h2>Welcome to KR portfolio</h2>
+
+            </div>
+        </div>
+    </div>
+<!--__________________________about____________________________-->
+<div id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/phone-background.png">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">about me</h1>
+            <p>As a Java developer at Capgemini,
+                I thrive on crafting efficient software solutions
+                that push the boundaries of technology.
+                Proficient in Java SE and EE, I design and implement
+                scalable architectures while leveraging frameworks
+                like Spring and Hibernate for robust backend development.
+                My expertise extends to frontend technologies such as AngularJS and React,
+                facilitating seamless integration for full-stack solutions.
+                Collaborating closely with cross-functional teams,
+                I ensure alignment with client objectives and Agile methodologies,
+                delivering high-quality products within specified timelines.
+                Recognized for problem-solving and leadership,
+                I've contributed to the success of several enterprise-level applications,
+                earning praise for innovation and reliability. Committed to continuous learning,
+                I stay abreast of emerging trends, driving excellence and fostering a culture of
+                knowledge-sharing within the team. At Capgemini, I am dedicated to exceeding expectations,
+                driving value, and embracing the ever-evolving landscape of Java development.</p>
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+
+        </div>
+
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>JAVA  <i class="fa-brands fa-java"></i></span><br>Developed application</li>
+                    <li><span>Spring</span></li>
+                    <li><span>Spring-Boot</span></li>
+                    <li><span>Spring-security</span></li>
+                    <li><span>MySql</span></li>
+                    <li><span>Data Structure</span><br>Problem solving skill</li>
+                    <li><span>System design</span><br>Designed App </li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2021-current</span><br>Software Engineer</li>
+                    <li><h1>Capgemini</h1></li>
+                </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>B.tech(CSE)</span><br>ICL Group of college Haryana.</li>
+                    <li><span>Intermediate</span><br>S.M College Bhagalpur.</li>
+                    <li><span>Matriculation</span><br>Shondik Girls High School Munger</li>
+                </ul>
+            </div>
+        </div>
+     </div>
+  </div>
+</div>
+<!-- ___ ____ ____ ____ ____ ___ ____ ____projects___ ____ _____ ____ ____ _____ ____ ____ ____-->
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="services-list">
+<div>
+    <i class="fa-solid fa-blog"></i>
+    <h2>Blog Application</h2>
+    <p> The Spring Boot application integrates springdoc-openapi to
+        generate OpenAPI (Swagger) documentation, showcasing RESTful APIs.
+        Customized using OpenAPI configuration, it details API endpoints,
+        versioning, and contact information. With swagger-ui integration,
+        developers can easily explore and interact with the API endpoints,
+        facilitating efficient development and testing workflows.</p>
+<a href="https://github.com/Komal305/Blog">GitHub <i class="fa-brands fa-github"></i> Link</a>
+</div>
+
+            <div>
+                <i class="fa-brands fa-apple"></i>
+                <h2>Multi-tasking App</h2>
+                <p> A Java Application World software where user
+                    can use applications developed in Java such as
+                    calculator, notepad+, puzzle game, ip finder,
+                    word count tool, source code generator,
+                     tic tac toe game and exam system.</p>
+                <a href="https://github.com/Komal305/multitaskingApp">GitHub <i class="fa-brands fa-github"></i> Link</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-building-columns"></i>
+                <h2>Banking Application</h2>
+                <p> A Banking services for customer to view balance statements
+                    and admin can add customer and delete using java spring boot mysql in frontend html css react.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!-- ________________portfolio_________________ -->
+
+<div id="artwork">
+    <div class="container">
+        <h1 class="sub-title">Art Work</h1>
+        <div class="work-list">
+        <div class="work">
+            <img src="images/eyes.png">
+            <div class="layer">
+                <h3>Eyes that hold galaxies within</h3>
+                <p>Photography is an immediate reaction, drawing is a meditation.</p>
+                <a href="https://www.instagram.com/p/CvTr03UvU5r/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/broken.png">
+            <div class="layer">
+                <h3>Life shrinks or expands in proportion to one’s courage</h3>
+                <p>If I try to articulate every little detail in a drawing, it would be like missing the forest for the trees.</p>
+                <a href="https://www.instagram.com/p/CUAJENusb5w/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div> 
+        <div class="work">
+            <img src="images/women.png">
+            <div class="layer">
+                <h3>physiognomy Art </h3>
+                <p>Visual storytelling of one kind or another has been around since cavemen were drawing on the walls. </p>
+                <a href="https://www.instagram.com/p/CPSytheD4hE/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>     
+        </div>
+        <a href="https://www.instagram.com/komalrani_3333/" class="btn">Follow me on Inst<i class="fa-brands fa-instagram"></i>gr<i class="fa-brands fa-instagram"></i>m</a>
+    </div>
+</div>
+<!-- ____________contect________________-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"><i class="fa-solid fa-user-group"></i>Contact me</h1>
+                <p>Komalrani2861@gmail.com <i class="fa-regular fa-envelope-open"></i></p>
+                <p><i class="fa-solid fa-comment-sms"> 8678044805 </i></p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/komalrani_3333/"><i class="fa-brands fa-instagram"></i> </a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i> </a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i> </a>
+                    <a href="#"><i class="fa-brands fa-threads"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+<a href="images/KomalRani333.docx" download class="cv"><i class="fa-solid fa-file-pdf"></i> Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="text" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your mail Id" required>
+                    <textarea name="Message" rows="3" placeholder="Your Suggestion"></textarea>
+                    <button type="submit" class="btn btn2">Send</button>
+                </form>
+                <span id="mgs">thank you I got you message</span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> copyright @ <i class="fa-brands fa-kickstarter"></i> KomalRani </p>
+        </div>
+    </div>
+</div>
+
+<!--________________JavaScript_______________-->
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+    for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+    }
+
+    for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200";
+    }
+</script>
+
+<script>
+    const scriptURL = 'YOUR_GOOGLE_SHEETS_SCRIPT_URL_HERE';
+    const form= document.forms['submit-to-google-sheet']
+    const mgs=document.getElementById("mgs")
+
+    form.addEventListner('submit', e=>{
+        e.preventDefault()
+        fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+        .then(response => {
+            mgs.innerHTML="thank you!"
+            setTimeout(function(){
+                mgs.innerHTML
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error', error.message))
+    })
+</script>
+</body>
+</html>
