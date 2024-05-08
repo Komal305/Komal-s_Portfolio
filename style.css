@@ -255,14 +255,14 @@ transition: transform 0.9s;
         text-align: center;
     }
 
-.book:hover  img{
+/* .book:hover  img{
     transform: scale(1.1);
 
-}
+} */
 
-.book:hover .layer{
+/* .book:hover .layer{
     height: 50%;
-}
+} */
 
     /* _________________Art work_______________*/
 
@@ -404,6 +404,8 @@ transition: transform 0.9s;
 
  .contact-right form{
     width: 100%;
+    display: grid;
+    grid-gap: 5px;
  }
 form input,form textarea{
     width: 100%;
@@ -411,7 +413,7 @@ form input,form textarea{
     outline: none;
     background: #262626;
     padding: 15px;
-    margin: 15px, 0;
+    margin-bottom: 10px;
     color: #fff;
     font-size: 18px;
     border-radius: 6px;
